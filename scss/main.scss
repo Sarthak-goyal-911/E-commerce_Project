@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import "./header.scss";
+
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: xx-large;
+    font-size: 1rem;
+    background-color: rgb(213, 213, 213);
+    padding: 2rem;
+
+    .btn-small{
+        background-color: rgb(36, 76, 220);
+        color: aliceblue;
+        width: auto;
+        padding: 0.25rem;
+    }
+   
+    .head-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-logo{
+        display: flex;
+        
+        gap: 1rem;
+    }
+    .head-cart{
+        display: flex;
+        gap: 1rem;
+    }
+}

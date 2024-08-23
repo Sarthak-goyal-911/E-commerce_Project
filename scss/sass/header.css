@@ -1,0 +1,14 @@
+.top-header ul {
+  list-style-type: none;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+.top-header .r-r {
+  display: flex;
+  gap: 1rem;
+}/*# sourceMappingURL=header.css.map */

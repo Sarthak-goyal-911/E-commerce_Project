@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-header ul {
+  list-style-type: none;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+.top-header .r-r {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  font-size: xx-large;
+  font-size: 1rem;
+  background-color: rgb(213, 213, 213);
+  padding: 2rem;
+}
+.main-header .btn-small {
+  background-color: rgb(36, 76, 220);
+  color: aliceblue;
+  width: auto;
+  padding: 0.25rem;
+}
+.main-header .head-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header .head-logo {
+  display: flex;
+  gap: 1rem;
+}
+.main-header .head-cart {
+  display: flex;
+  gap: 1rem;
+}/*# sourceMappingURL=main.css.map */
